@@ -7,14 +7,11 @@
     <link rel="stylesheet" type="text/css" href="../static/site.css" />
 </head>
 <body>
-    <span class="message">{{message}}</span>
-    <strong>{{message}}</strong>
-    {{ content }}
-    <div><a href="about">About</a></div>
+    <div><a href="home">Home</a></div>
+    {{content}}
 </body>
 </html>-->
-
 {% extends "layout.html" %}
 {% block content %}
-<span class="message">{{message}}</span>{{content}}
-{% endblock%}
+{{ content }}
+{% endblock %}
